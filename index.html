@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+  <!-- title -->
+  <h1 class="text-center">¿Piedra, Papel o Tijera?</h1>
+
+  <!-- Container opciones -->
+  <div class="container">
+    <div class="row text-center">
+
+    <!-- columna piedra -->
+      <div class="col-md-4" id="rock">
+        <h3>Rock</h3>
+        <img src="assets/img/rock.jpg" alt="">
+      </div>
+    <!-- fin columna piedra -->
+
+    <!-- columna papel -->
+      <div class="col-md-4" id="paper">
+        <h3>Paper</h3>
+        <img src="assets/img/paper.jpg" alt="">
+      </div>
+    <!-- fin columna papel -->
+
+    <!-- columna tijera -->
+      <div class="col-md-4" id="scissors">
+        <h3>Scissors</h3>
+        <img src="assets/img/scissors.jpg" alt="">
+      </div>
+    <!-- fin columna tijera -->
+    </div>
+
+    <!-- row y columna para elección del compu -->
+    <div class="row">
+      <div class="col-md-12 text-center" id="chooseCompu"></div>
+    </div>
+    <!-- fin row elección del compu -->
+
+    <!-- row y columna para resultado final -->
+    <div class="row">
+      <div class="col-md-12 text-center" id="finalResult"></div>
+    </div>
+    <!-- fin row resultado final -->
+
+    <!-- fin container -->
+  </div>
+
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
